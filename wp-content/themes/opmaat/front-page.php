@@ -318,11 +318,9 @@ Dit is waar we voor staan: ontwikkelen wat een kind in zijn mars heeft en kinder
                             ?>
                              
                                 <div class="col-lg-2 team_member p-lg-4 p-5">
-                                    <img src="images/anjuli.jpg">
+                                    <?= the_post_thumbnail('medewerker_size'); ?>
                                     <h3 class="amatic"><?= the_title(); ?></h3>
-                                    <p>Anjuli is orthopedagoog met een passie voor onderwijs. 
-                                        Ze is geduldig, leergierig en geïnteresseerd in de persoonlijkheid van leerlingen. 
-                                        Anjuli houdt van koken, lezen, reizen en films.</p>
+                                    <p><?= the_content(); ?></p>
                                 </div>
 
                                 <?php } ?>

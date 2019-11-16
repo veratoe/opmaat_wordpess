@@ -29,20 +29,13 @@
                 </div>
                 <div class="container d-none d-lg-block" style="position: relative;">
                         <ul id="menu">
-                            <?php wp_list_pages( '&title_li=' ); ?>
-                        </ul>
+                           	<?php wp_nav_menu( array('menu' => 'hoofdmenu')); ?>
+						</ul>
                 </div>
                 <div class="collapse" id="mobile_menu">
                     <ul id="mobile_menu">
-
-                        <li><a href="/bijlessen" title="Bijles Den Bosch">Bijlessen</a></li>
-                        <li><a href="/bijles-basisschool" title="Bijles basisschool Den Bosch">Basisschool</a></li>
-                        <li><a href="/bijles-voortgezet-onderwijs" title="Huiswerkbegeleiding en studiebegeleiding Voortgezet Onderwijs Den Bosch">Voortgezet onderwijs</a></li>
-                        <li><a href="/prijzen" title="Prijzen">Prijzen</a></li>
-                        <li><a href="/informatie" title="Informatie">Informatie</a></li>
-                        <li><a href="/vacatures" title="Vacatures">Vacatures</a></li>
-                        <li><a href="/contact-2" title="Contact">Contact</a></li>
-                </ul>
+       					<?php wp_nav_menu( array('menu' => 'hoofdmenu')); ?>
+	                </ul>
                 </div>
                 </div>
            <div>
