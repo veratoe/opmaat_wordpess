@@ -1,0 +1,394 @@
+/*
+Theme Name: Op Maat
+Author: Diede
+Description: Op Maat wordpress theme
+Tags: Op Maat
+*/
+
+
+
+* {
+color: #555;
+}
+
+
+h1 {
+max-width: 70%;
+text-align: center;
+}
+
+h1.amatic {
+font-size: 4em;
+font-weight: bold;
+color: #0e71b8;
+margin-top: 30px;
+} 
+
+h3.amatic {
+color: #0e71b8;
+font-weight: bold;
+font-size: 40px;
+padding: 20px 0px;
+}
+
+#opmaat_header a {
+color: inherit;
+text-decoration: inherit;
+}
+
+#opmaat_header .phone_icon {
+width: 25px;
+margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+#opmaat_header h3 {
+    font-size: 1.25rem;
+}
+
+#opmaat_header .phone_icon {
+    width: 18px;
+}
+
+}
+
+/* deze moet nog weg, wat veroorzaakt overflow? */
+section { 
+overflow: hidden;
+}
+
+.amatic {
+font-family: 'Amatic SC', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+
+#opmaat_header  {
+    padding: 20px;
+}
+
+#opmaat_header #logo {
+    width: 100px;
+}
+
+}
+
+.jumbotron#op_maat {
+margin: 0 auto;
+display: block;
+padding: 0;
+position: relative;
+border-radius: 0;
+}  
+
+.jumbotron#op_maat img {
+width: 100%;
+}
+
+.jumbotron .banner {
+/* position: absolute; */
+bottom: 0;
+background-color: rgba(190, 22, 34, 0.75);
+padding: 1rem;
+text-align: center;
+width: 100%;
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+.jumbotron#op_maat img {
+    /* max-width: 80%; */
+    display: block;
+    margin: 0 auto;
+}
+
+.jumbotron#op_maat .banner {
+    position: absolute;
+}
+
+.jumbotron#op_maat .banner h1 {
+    padding: 0.1em;
+}
+
+}
+
+.jumbotron .banner h1 {
+color: white;
+margin: 0 auto;
+font-size: 5em;
+padding: 0.5em 0em;
+display: block;
+}
+
+@media only screen and (max-width: 600px) {
+
+.jumbotron .banner {
+    padding: 10px;
+}
+
+.jumbotron .banner h1{
+    font-size: 2.6em;
+}
+
+}
+
+.has_quotes span.lquote, .has_quotes span.rquote {
+font-size: 4em;
+color: #aaa;
+font-family: serif;
+
+}
+
+.has_quotes span.lquote {
+left: -30px;
+}
+
+.has_quotes span.rquote {
+right: -30px;
+bottom: -30px;
+}
+
+.has_quotes .quote {
+font-size: 32px;
+line-height: 1.5em;
+font-weight: normal;
+}
+
+@media only screen and (max-width: 600px) {
+.has_quotes span.lquote {   
+    left: 0;
+}
+
+.has_quotes span.rquote {   
+    right: 0;
+}
+
+#main_quote {
+    font-size: 24px;
+    padding-top: 50px;
+}
+}
+
+.background_blue {
+background-color: #0e71b8;
+}
+
+.box.box_text h3 {
+
+font-size: 1.9em;
+font-weight: 200;
+text-align: left;
+line-height: 1.9em;
+padding: 50px;
+}
+
+@media only screen and (max-width: 1023px) {
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+}
+
+.box .onderschrift {
+    color: white;
+    width: 260px;
+    font-size: 32px;
+    line-height: 1.2em;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+
+.box.box_to_right {
+    width: 580px;
+    padding: 70px;
+    position: absolute;
+    right: 0;
+}
+
+.box.box_to_left {
+    width: 580px;
+    padding: 70px;
+    position: absolute;
+    left: 0;
+}
+
+.box img {
+    height: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+}
+
+.carousel-item {
+font-size: 18px;
+min-height: 500px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+.carousel-item {
+        min-height: 650px;
+}
+
+}
+
+.carousel-item h5 {
+color: #0e71b8;
+font-size: 40px;
+font-weight: bold;
+font-family: 'Amatic SC', sans-serif;
+}
+
+.carousel-item p {
+color: #0e71b8;
+font-weight: bold;
+}
+
+.carousel-indicators li {
+background-color: #0e71b8;
+height: 13px;
+}
+
+
+
+.container-fluid img.across_screen {
+max-width: 100%;
+}
+
+
+#telescoop { 
+margin-top: 50px; 
+width: 350px; 
+height: 350px;
+background: #0e71b8;
+border-radius: 180px;
+float: right
+}
+
+@media only screen and (max-width: 600px) {
+
+#telescoop { 
+    float: none;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+}
+
+@media only screen and (max-width: 1023px) {
+
+.container-fluid img.across_screen {
+    max-width: 330%;
+    left: -460px;
+    position: relative;
+}
+
+}
+
+@media only screen and (min-width: 568px) {
+
+.team_member {
+        max-width: 376px;
+
+    }
+
+}
+
+.team_member img {
+width: 100%;
+}
+
+.team_member h3 {
+color:#0e71b8;
+font-weight: bold;
+font-size: 40px;
+padding: 20px 0px;
+}
+
+.team_member p {
+font-size: 1em;
+}
+
+.footer_block{
+padding: 2em 2em;
+}
+
+.footer_block img {
+float: left;
+}
+
+.footer_block p.adres {
+float: left;
+margin-left: 20px;
+}
+
+@media only screen and (min-width: 1023px) {
+
+.footer_block.middle {
+    flex: 0 0 26%;
+    max-width: 26%;
+}
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+.footer_block {
+    text-align: center;
+}
+
+.footer_block img {
+    float: none;
+    margin: 0 0 20px 0;
+}
+
+.footer_block p.adres {
+    float: none;
+    margin-left: 0;
+}
+
+}
+
+ul#menu {
+
+position: absolute;
+display: inline-block;               
+right: 0;
+top: -20px;
+color: #aaa;
+}
+
+ul#menu li, ul#mobile_menu li {
+list-style: none;
+display: inline-block;
+font-family: 'Amatic SC', sans-serif;
+font-size: 24px;
+padding: 5px 10px;
+color: #aaa;
+}
+
+ul#mobile_menu {
+margin: 0;
+padding: 5px;
+}
+
+ul#mobile_menu li {
+display: block;
+color: #888;
+
+}
+
+ul#menu li:hover {
+color: #0e71b8;
+}
+
